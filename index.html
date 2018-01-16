@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- In getting some ideas, I have seen this IE compatiblity line, so I am using it-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--settintg the viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>William Conover's Portfolio Site</title>
+    <!--Font Family Import-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <!-- Bootstrap - latest release -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Because we are using the Bootstrap Grid, need 'container' class -->
+    <div class="container">
+            <!-- Header section-->
+            <header class="row">
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                    <img class="img-responsive logo" src="img/mylogo.png" alt="Portfolio Site Logo">
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-6 text-right text-uppercase">
+                    <h1 class="title-large">William Conover</h1>
+                    <h4 class="text-bold">FullStack Student</h4>
+                </div>
+            </header>
+             <!-- Banner -->
+            <div class="row">
+                <div class="col-md-12">
+                    <hr>
+                </div>
+            </div>
+            <main class="row">
+                <div class="col-md-12">
+                <img class="img-responsive" src="img/img-main.jpg" alt="Bridge to a New Career">
+                </div>
+            </main>
+            <!-- Udacity Projects section -->
+            <section class="row">
+                <div class="col-md-12">
+                    <h2 class="text-muted">Udacity Projects</h2>
+                </div>
+            </section>
+            <!-- Three Portfolio Items - setting medium and small screens to span 4 columns-->
+            <div class="row text-center">
+                <article class="col-md-4 col-sm-4">
+                    <img class="img-responsive" src="img/img-resume.jpeg" alt="resume image">
+                    <h3 class="text-uppercase"><a href="https://github.com/prchrbill/Resume-Builder">Resume Builder</a></h3>
+                    <p class="text-bold">https://github.com/prchrbill/Resume-Builder</p>
+                </article>
+
+                <article class="col-md-4 col-sm-4">
+                    <img class="img-responsive" src="img/img-movie.jpeg" alt="movie image">
+                    <h3 class="text-uppercase"><a href="https://github.com/prchrbill/moviewebsite">Movie Website</a></h3>
+                    <p class="text-bold">https://github.com/prchrbill/moviewebsite</p>
+                </article>
+
+                <article class="col-md-4 col-sm-4">
+                    <img class="img-responsive" src="img/img-portfolio.jpg" alt="portfolio image">
+                    <h3 class="text-uppercase"><a href="https://github.com/prchrbill/portfolio">Portfolio Website</a></h3>
+                    <p class="text-bold">https://github.com/prchrbill/portfolio</p>
+                </article>
+            </div>
+            <footer class="footer">
+                <div class="container">
+                    <!-- all the photos belong to me -->
+                    <p class="text-uppercase">Photos Only - All Right Reserved. Copyright &copy;2018</p>
+                </div>
+            </footer>
+    </div>
+</body>
+
+</html>
