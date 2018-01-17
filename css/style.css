@@ -1,38 +1,30 @@
 /* Project: Portfolio, Udacity Fullstack Nano Degree */
+
 /* Main layout */
+
 /* Compiled from several GitHub source examples */
+
 body {
     font-family: 'Lato', sans-serif;
     color: #2d3c49;
     font-weight: 900;
-}
-.text-muted {
-    text-transform: uppercase;
-    color: #676858;
-}
-.logo {
-    width: 5.5em;
-    margin-top: 1em;
-}
-.text-bold {
-    font-weight: 300;
-    font-size: 10px;
-}
-.title-large {
-    font-size: 50px;
-    font-weight: 400;
 }
 hr {
     /*Set horizontal rule thickness*/
     border: 2px solid #7d97ad;
 }
 h3 {
-    /*Using given color scheme from mock-up*/
     color: #2d3c49;
-    font-weight: 600;
-    font-size: 30px;
 }
-
+.logo {
+    margin-top: 1em;
+}
+.img-responsive {
+    max-width: 100%;
+}
+.text-muted {
+    color: #676858;
+}
 /* Footer */
 
 footer {
@@ -41,4 +33,75 @@ footer {
     border-top: 0.1em solid #02b3e4;
     margin-top: 2em;
     padding: 1em;
+}
+@media screen and (min-width: 992px) {
+    .logo {
+        width: 10em;
+    }
+    .text-muted {
+        font-weight: 700;
+        font-size: 30px
+    }
+    .text-bold {
+        font-weight: 700;
+        font-size: 30px;
+    }
+    .title-large {
+        font-size: 50px;
+    }
+    .text-weblink {
+        font-weight: 400;
+        font-size: 20px;
+    }
+    h3 {
+        font-weight: 600;
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .logo {
+        width: 5.5em;
+    }
+    .text-muted {
+        font-weight: 400;
+        font-size: 25px
+    }
+    .text-bold {
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .title-large {
+        font-size: 35px;
+    }
+    .text-weblink {
+        font-weight: 400;
+        font-size: 13px;
+    }
+    h3 {
+        font-weight: 400;
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .logo {
+        width: 4em;
+    }
+    .text-muted {
+        font-weight: 300;
+        font-size: 15px
+    }
+    .text-bold {
+        font-weight: 300;
+        font-size: 15px;
+    }
+    .title-large {
+        font-size: 20px;
+    }
+    .text-weblink {
+        font-weight: 300;
+        font-size: 15px;
+    }
+    h3 {
+        font-size: 18px;
+    }
 }
